@@ -1,0 +1,57 @@
+.sidebar {
+    padding: 1.4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+h3 {
+	padding: 0.3rem 0;
+	font-size: 18px !important;
+}
+
+.filter-text {
+    font-weight: 700;
+    font-size: 25px;
+}
+.filter-category {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.filter-category--select {
+    padding: 0.3rem 1.2rem;
+	font-size: 1.6rem;
+	text-transform: capitalize;
+}
+
+.filter-brand--select {
+	padding: 0.3rem 1.2rem;
+	font-size: 1.6rem;
+	text-transform: capitalize;
+}
+
+.filter_price {
+	margin: 0.5rem 0 1rem 0;
+	padding: 0;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+.filter-clear {
+	color: #000;
+    justify-content: center;
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .card-data-sticky {
+        position: sticky;
+        top: 100px;
+        bottom: 0;
+        position: -webkit-sticky;
+        align-self: flex-start;
+    }
+}
+

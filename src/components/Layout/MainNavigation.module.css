@@ -1,0 +1,56 @@
+
+.blank-section {
+    width: 18px;
+}
+
+.input-searchbar {
+    width: 100%;
+}
+
+.cart-button {
+    display: flex;
+    justify-content: end;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+    .input-searchbar {
+        width: 40% !important;
+    }
+
+    .cart-button {
+        display: block;
+        justify-content: start !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cart-button {
+        display: block;
+        justify-content: start !important;
+    }
+    .input-searchbar {
+        width: 40% !important;
+    }
+
+ }
+/* Mobile View */
+@media (max-width: 400px){
+    .input-display {
+        flex: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px){
+    .input-searchbar {
+        width: 100%;
+    }
+
+    .cart-button {
+        display: flex;
+        justify-content: end;
+    }
+}

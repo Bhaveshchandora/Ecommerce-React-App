@@ -1,0 +1,22 @@
+.icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.5rem;
+}
+
+.cart-basket {
+    font-size: .6rem;
+    position: relative;
+    top: -33px;
+    right: -12px;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    background-color: #418deb;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+
